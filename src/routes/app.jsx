@@ -13,7 +13,6 @@ function App() {
             <p className="drop-title">Projects</p>
             <div className="drop-links">
               <Link to={"/studybuddies"} className="proj-links">StudyBuddies</Link>
-              {/* <br /> */}
               <Link to={"/spoiled-potatoes"} className="proj-links">Spoiled Potatoes</Link>
             </div>
           </li>
