@@ -9,20 +9,19 @@ function App() {
           <li>
             <Link to={"/"}>Home</Link>
           </li>
-          <li>
-            <p>Make projects dropdown</p>
-          </li>
-          <li>
-            <Link to={"/studybuddies"}>StudyBuddies</Link>
-          </li>
-          <li>
-            <Link to={"/spoiled-potatoes"}>Spoiled Potatoes</Link>
+          <li className="drop-projects">
+            <p className="drop-title">Projects</p>
+            <div className="drop-links">
+              <Link to={"/studybuddies"} className="proj-links">StudyBuddies</Link>
+              {/* <br /> */}
+              <Link to={"/spoiled-potatoes"} className="proj-links">Spoiled Potatoes</Link>
+            </div>
           </li>
           <li>
             <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <p>Contact</p>
+            <Link to={"/contact"}>Contact</Link>
           </li>
         </ul>
       </div>

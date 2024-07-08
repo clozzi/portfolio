@@ -8,6 +8,7 @@ import Index from './routes/index'
 import About from './routes/about'
 import StudyBuddies from './routes/sb'
 import SpoiledPotatoes from './routes/sp'
+import Contact from './routes/contact'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -29,6 +30,10 @@ const router = createBrowserRouter(
         <Route
           path='/about'
           element={<About />}
+        />
+        <Route
+          path='/contact'
+          element={<Contact />}
         />
       </Route>
     </Route>
