@@ -3,7 +3,7 @@ function StudyBuddies() {
         <div className="project">
             <h1>StudyBuddies</h1>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/clozzi/studybuddies-lite">
-                <img src="public/SB.png"></img>
+                <img src="SB.png"></img>
             </a>
             <ul>
                 <li>Real time chat application for students and teachers</li>
