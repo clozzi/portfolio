@@ -3,7 +3,7 @@ function SpoiledPotatoes() {
         <div className="project">
             <h1>Spoiled Potatoes</h1>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/clozzi/spoiled-potatoes-v3">
-                <img src="src/images/sp.png"></img>
+                <img src="/images/sp.png" />
             </a>
             <ul>
                 <li>Simple version of a popular media review site</li>
