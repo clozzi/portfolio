@@ -1,19 +1,35 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #13263a;
+  color: #e6e6ff;
 }
 
 .main {
   display: flex;
+  height: 95vh;
 }
 
 .side-nav {
-  border: solid;
   padding: 5px;
   width: 25%;
 }
 
+.side-nav li {
+  list-style-type: none;
+}
+
 .display {
   border: solid;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 0;
+  border-right: 0;
+  align-content: center;
+  text-align: center;
   padding: 5px;
   width: 75%;
+}
+
+.project li {
+  list-style-type: none;
 }

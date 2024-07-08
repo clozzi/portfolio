@@ -4,9 +4,10 @@ import App from './routes/app'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import ErrorPage from './error-page'
-import Project from './routes/project'
 import Index from './routes/index'
 import About from './routes/about'
+import StudyBuddies from './routes/sb'
+import SpoiledPotatoes from './routes/sp'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,8 +19,12 @@ const router = createBrowserRouter(
       <Route errorElement={<ErrorPage />}>
         <Route index element={<Index />} />
         <Route
-          path='/projects/:projectId'
-          element={<Project />}
+          path='/studybuddies'
+          element={<StudyBuddies />}
+        />
+        <Route
+          path='/spoiled-potatoes'
+          element={<SpoiledPotatoes />}
         />
         <Route
           path='/about'

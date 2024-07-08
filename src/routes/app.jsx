@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="main">
       <div className="side-nav">
-        <p>Render this as sidebar navigation for site</p>
         <ul>
           <li>
             <Link to={"/"}>Home</Link>
@@ -14,13 +13,16 @@ function App() {
             <p>Make projects dropdown</p>
           </li>
           <li>
-            <Link to={"/projects/1"}>P1</Link>
+            <Link to={"/studybuddies"}>StudyBuddies</Link>
           </li>
           <li>
-            <Link to={"/projects/2"}>P2</Link>
+            <Link to={"/spoiled-potatoes"}>Spoiled Potatoes</Link>
           </li>
           <li>
             <Link to={"/about"}>About</Link>
+          </li>
+          <li>
+            <p>Contact</p>
           </li>
         </ul>
       </div>
