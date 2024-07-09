@@ -15,7 +15,7 @@ function About() {
                     <p>My brother-in-law recently got me <a target="_blank" rel="noopener noreferrer" href="https://starwars.fandom.com/wiki/From_a_Certain_Point_of_View">Star Wars From a Certain Point of View</a> and I started reading it. Buy it, read it, be happy.</p>
                 </div>
                 <div className="interest">
-                    <h1>Cooking & Cooking Competition Shows</h1>
+                    <h1>Cooking</h1>
                     <p>Barbecue Showdown Season 3 came out on July 4th on Netflix and my fiance and I are very excited.</p>
                 </div>
                 <div className="interest">
