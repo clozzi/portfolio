@@ -4,6 +4,30 @@ body {
   color: #e6e6ff;
 }
 
+::selection {
+  background-color: #e6e6ff;
+  color: #13263a;
+}
+
+a {
+  outline-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: #e6e6ff;
+}
+
+a:visited {
+  color: #e6e6ff;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #e6e6ff;
+  color: #13263a;padding: 15px;
+}
+
 .main {
   display: flex;
   height: 95vh;
@@ -16,18 +40,8 @@ body {
 
 .side-nav li {
   list-style-type: none;
-}
-
-.display {
-  border: solid;
-  border-top: 3px solid white;
-  border-left: 3px solid white;
-  border-bottom: 0;
-  border-right: 0;
-  align-content: center;
-  text-align: center;
-  padding: 5px;
-  width: 75%;
+  text-decoration: none;
+  padding: 15px;
 }
 
 .project li {
@@ -43,11 +57,7 @@ body {
   display: none;
   padding: 10px;
   position: absolute;
-  background-color: white;
-  color: #13263a;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  background-color: #e6e6ff;
 }
 
 .drop-projects:hover .drop-links {display: block;}
@@ -56,4 +66,21 @@ body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  color: #13263a;
+}
+
+.proj-links:visited {
+  color: #13263a;
+}
+
+.display {
+  border: solid;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 0;
+  border-right: 0;
+  align-content: center;
+  text-align: center;
+  padding: 5px;
+  width: 75%;
 }

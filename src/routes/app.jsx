@@ -7,20 +7,20 @@ function App() {
       <div className="side-nav">
         <ul>
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to={"/"} className="nav-link">Home</Link>
           </li>
           <li className="drop-projects">
-            <p className="drop-title">Projects</p>
+            <a className="drop-title">Projects</a>
             <div className="drop-links">
               <Link to={"/studybuddies"} className="proj-links">StudyBuddies</Link>
               <Link to={"/spoiled-potatoes"} className="proj-links">Spoiled Potatoes</Link>
             </div>
           </li>
           <li>
-            <Link to={"/about"}>About</Link>
+            <Link to={"/about"} className="nav-link">About</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to={"/contact"} className="nav-link">Contact</Link>
           </li>
         </ul>
       </div>
